@@ -8,6 +8,10 @@ const navItems = [
   { id: "signals", label: "Signals" },
   { id: "work", label: "Experiments" },
   { id: "principles", label: "Principles" },
+  { id: "pengalaman", label: "Experience" },
+  { id: "proyek", label: "Projects" },
+  { id: "keahlian", label: "Skills" },
+  { id: "kontak", label: "Contact" },
   { id: "colophon", label: "Colophon" },
 ]
 

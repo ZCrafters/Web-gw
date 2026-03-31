@@ -2,6 +2,10 @@ import { HeroSection } from "@/components/hero-section"
 import { SignalsSection } from "@/components/signals-section"
 import { WorkSection } from "@/components/work-section"
 import { PrinciplesSection } from "@/components/principles-section"
+import { ExperienceSection } from "@/components/experience-section"
+import { ProjectsSection } from "@/components/projects-section"
+import { SkillsSection } from "@/components/skills-section"
+import { ContactSection } from "@/components/contact-section"
 import { ColophonSection } from "@/components/colophon-section"
 import { SideNav } from "@/components/side-nav"
 
@@ -16,6 +20,10 @@ export default function Page() {
         <SignalsSection />
         <WorkSection />
         <PrinciplesSection />
+        <ExperienceSection />
+        <ProjectsSection />
+        <SkillsSection />
+        <ContactSection />
         <ColophonSection />
       </div>
     </main>

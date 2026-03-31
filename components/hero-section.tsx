@@ -35,6 +35,13 @@ export function HeroSection() {
 
   return (
     <section ref={sectionRef} id="hero" className="relative min-h-screen flex items-center pl-6 md:pl-28 pr-6 md:pr-12">
+      <video autoPlay loop muted playsInline className="absolute inset-0 h-full w-full object-cover opacity-45">
+        <source
+          src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260217_030345_246c0224-10a4-422c-b324-070b7c0eceda.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div className="absolute inset-0 bg-gradient-to-b from-black/55 via-black/45 to-black/90" />
       <AnimatedNoise opacity={0.03} />
 
       {/* Left vertical labels */}
@@ -56,11 +63,12 @@ export function HeroSection() {
         </SplitFlapAudioProvider>
 
         <h2 className="font-[var(--font-bebas)] text-muted-foreground/60 text-[clamp(1rem,3vw,2rem)] mt-4 tracking-wide">
-          Studies in Controlled Environments
+          Digital Business Student & Creative Builder
         </h2>
 
         <p className="mt-12 max-w-md font-mono text-sm text-muted-foreground leading-relaxed">
-          We design systems that behave, not just screens that display. Signals from the edge of what&apos;s shippable.
+          I blend content, design, and data to craft portfolio-ready digital experiences across media, branding, and web
+          systems.
         </p>
 
         <div className="mt-16 flex items-center gap-8">
