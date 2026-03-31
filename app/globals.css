@@ -36,7 +36,7 @@
 }
 
 @theme inline {
-  /* Updated font-sans and font-mono to use IBM Plex */
+  /* Font tokens use resilient system stacks to avoid external font fetch failures */
   --font-sans: "Inter", "Arial", sans-serif;
   --font-mono: "ui-monospace", "SFMono-Regular", "Menlo", monospace;
   --font-display: "Arial Narrow", "Impact", sans-serif;
